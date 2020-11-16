@@ -8,15 +8,16 @@ class LineInteger():
         self.r = None
     
 
-    @property
+    @staticmethod
     def _aceleracao(self):
         pass
     
-    @property
+    @staticmethod
     def _velocidade(self):
         pass
     
-    @property
+    @staticmethod
     def _desitancia(self):
         pass
+
 

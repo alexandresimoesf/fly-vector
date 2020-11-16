@@ -2,6 +2,7 @@ import pygame
 import pygame.font
 import rotacionar
 import inicializar
+import kalman
 
 pygame.init()
 
