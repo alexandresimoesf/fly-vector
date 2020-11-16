@@ -5,7 +5,10 @@ import inicializar
 
 pygame.init()
 
-textos = ['Alexandre: Aerodinâmica', 'Brenda: Financeiro', 'Fernanda: Gestão', 'Filipe: Elétrica', 'Guilherme: Marketing', 'Heitor: Desempenho', 'Luisa: Gestão', 'Léo: Desempenho', 'Matheus: Cargas', 'Mylena: Capitã', 'Norton: Estabilidade', 'Robert: Elétrica', 'Thais: Aerodinâmica']
+#mudanças
+
+
+textos = ['Alexandre: Dev']
 posText = []
 plus = 0
 for i in range(len(textos)):
@@ -20,7 +23,7 @@ pngs = ['fly.png','fly.png','fly.png']
 pos = [(200, 270),(550, 270),(200, 520)]
 obj = []
 for i in pngs:
-    obj.append(rotacionar2.Rotation(i))
+    obj.append(rotacionar.Rotation(i))
 
 SIZE = (800,700)
 screen = pygame.display.set_mode(SIZE)

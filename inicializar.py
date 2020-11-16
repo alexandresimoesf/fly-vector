@@ -8,6 +8,5 @@ class Texto():
 
     def Show(self, screen, pos):
         screen.blit(pygame.image.load('unifei.png'), (5,5))
-        screen.blit(pygame.image.load('lots.png'), ((700//2)-200,500))
         screen.blit(self.label, pos)
     
